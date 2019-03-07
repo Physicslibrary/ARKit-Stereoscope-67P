@@ -167,10 +167,13 @@ node3.geometry?.firstMaterial?.fillMode = .lines
 node3.geometry?.firstMaterial?.emission.contents = UIColor.white
 node3.geometry?.firstMaterial?.isDoubleSided = false
 
-var ipd = -0.064
-var cameraNode = SCNNode()
+// hardwired for Owl Stereoscopic Viewer
+// the stereoscope is used with a 9.7" iPad in portrait orientation lock on
+
+var ipd = -0.064 // interpupillary distance (meter)
+var cameraNode = SCNNode()  // make a camera for left eye
 let camera = SCNCamera()
-camera.xFov = 39
+camera.xFov = 39  // camera.* depends on righteye.frame 
 camera.yFov = 50
 camera.zFar = 1000
 camera.zNear = 0.1
