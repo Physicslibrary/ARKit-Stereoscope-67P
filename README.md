@@ -8,7 +8,7 @@ ARKit stereoscope to visualize the relative sizes of ESA Rosetta space probe to 
 
 This project was inspired by a European Space Agency's webpage explaining the relative sizes of the Rosetta space probe to comet 67P/Churyumov-Gerasimenko:
  
-[ESA: How big is Rosetta compared with the comet?](sci.esa.int/rosetta/54831-how-big-is-rosetta-compared-with-the-comet/)
+[ESA: How big is Rosetta compared with the comet?](http://sci.esa.int/rosetta/54831-how-big-is-rosetta-compared-with-the-comet/)
 
 Question: What would it be like if one could see the relative sizes of Rosetta and 67P in virtual reality?
  
