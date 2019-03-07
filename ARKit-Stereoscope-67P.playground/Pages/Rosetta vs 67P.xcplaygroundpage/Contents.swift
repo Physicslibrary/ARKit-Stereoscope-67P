@@ -27,72 +27,79 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
  
- Mar 6, 2019.
+Mar 6, 2019.
  
- This playground was inspired by a European Space Agency's webpage explaining the relative sizes of the Rosetta space probe to comet 67P/Churyumov-Gerasimenko.
+This playground was inspired by a European Space Agency's webpage explaining 
+the relative sizes of the Rosetta space probe to comet 67P/Churyumov-Gerasimenko.
  
- sci.esa.int/rosetta/54831-how-big-is-rosetta-compared-with-the-comet/
+sci.esa.int/rosetta/54831-how-big-is-rosetta-compared-with-the-comet/
  
- Question: What would it be like if one could see the relative sizes of Rosetta and 67P in virtual reality?
+Question: What would it be like if one could see the relative sizes of Rosetta and 67P in virtual reality?
  
- Since ESA and NASA have an educational policy of open sourcing their data such as 3D models and images, one can use tools such Swift Playgrounds and ARKit to visualize the data with a stereoscope.
+Since ESA and NASA have an educational policy of open sourcing their data such as 3D models and images, 
+one can use tools such Swift Playgrounds and ARKit to visualize the data with a stereoscope.
  
- The Rosetta model is positioned 1 km from the 67P comet using Blender. There are cubes placed at every 1 km from 1 to 10 km from 67P. This helps to give a sense of distance and a kilometer is a familiar thing. Placing Rosetta 1 km above the comet gives it a sense of scale.
+The Rosetta model is positioned 1 km from the 67P comet using Blender. There are cubes placed at every 1 km 
+from 1 to 10 km from 67P. This helps to give a sense of distance and a kilometer is a familiar thing. Placing 
+Rosetta 1 km above the comet gives it a sense of scale.
  
- Note: Rosetta was 1 km from 67P on its last mission
+Note: Rosetta was 1 km from 67P on its last mission
  
- https://m.esa.int/Our_Activities/Space_Science/Rosetta/Mission_complete_Rosetta_s_journey_ends_in_daring_descent_to_comet
+https://m.esa.int/Our_Activities/Space_Science/Rosetta/Mission_complete_Rosetta_s_journey_ends_in_daring_descent_to_comet
  
- Credits
+Credits
  
- ESA_Gaia_DR2_AllSky_Brightness_Colour_Cartesian_2000x1000.png
- Date: 25 April 2018
- Satellite: Gaia
- Copyright: ESA/Gaia/DPAC, CC BY-SA 3.0 IGO
- http://sci.esa.int/gaia/60196-gaia-s-sky-in-colour-equirectangular-projection/
+ESA_Gaia_DR2_AllSky_Brightness_Colour_Cartesian_2000x1000.png
+Date: 25 April 2018
+Satellite: Gaia
+Copyright: ESA/Gaia/DPAC, CC BY-SA 3.0 IGO
+http://sci.esa.int/gaia/60196-gaia-s-sky-in-colour-equirectangular-projection/
  
- 67P.obj is scaled, positioned, and exported from Blender using CSHP_DV_257_01_______00343.obj
- Copyright: ESA/Rosetta/NAVCAM  CC BY-SA IGO 3.0
- https://imagearchives.esac.esa.int/index.php?/page/navcam_3d_models
+67P.obj is scaled, positioned, and exported from Blender using CSHP_DV_257_01_______00343.obj
+Copyright: ESA/Rosetta/NAVCAM  CC BY-SA IGO 3.0
+https://imagearchives.esac.esa.int/index.php?/page/navcam_3d_models
  
- 67P.png
- Cycles render baked in Blender 2.79b using 67P.obj
+67P.png
+Cycles render baked in Blender 2.79b using 67P.obj
  
- rosetta.obj
- Author/Origin: Eyes on the Solar System. NASA/JPL-Caltech
- https://nasa3d.arc.nasa.gov/detail/eoss-rosetta
+rosetta.obj
+Author/Origin: Eyes on the Solar System. NASA/JPL-Caltech
+https://nasa3d.arc.nasa.gov/detail/eoss-rosetta
  
- Blender is used to scale 67P.obj to 4100m, rosetta.obj to 32m, and positioned 1km apart
+Blender is used to scale 67P.obj to 4100m, rosetta.obj to 32m, and positioned 1km apart
  
- https://www.blender.org/
+https://www.blender.org/
  
- The OWL Stereoscope Viewer from The London Stereoscopic Ltd
+The OWL Stereoscope Viewer from The London Stereoscopic Ltd
  
- https://www.londonstereo.com
+https://www.londonstereo.com
  
- Thank to Dr. Brian May for developing an amazingly simple tool that can be used with the 9.7" iPad.
+Thank to Dr. Brian May for developing an amazingly simple tool that can be used with the 9.7" iPad.
  
- Apple iOS Swift Playgrounds to access ARKit and SceneKit (set up scene, read 3D files, attact a virtual camera for lefteye to ARKit iPad camera righteye to make a stereoscope, 6DOF tracking)
+Apple iOS Swift Playgrounds to access ARKit and SceneKit (set up scene, read 3D files, attact a virtual 
+camera for lefteye to ARKit iPad camera righteye to make a stereoscope, 6DOF tracking)
  
- https://www.apple.com/ca/swift/playgrounds/
+https://www.apple.com/ca/swift/playgrounds/
  
- This playground is hardwired for Apple 2018 9.7" iPad (introduced at Apple Special Event March 27, 2018, Chicago).
+This playground is hardwired for Apple 2018 9.7" iPad (introduced at Apple Special Event March 27, 2018, Chicago).
  
- cube.obj was created in Blender
- a series of 2mx2mx2m cube placed at every km from 1 to 10km
- to give another sense of scale
+cube.obj was created in Blender
+a series of 2mx2mx2m cube placed at every km from 1 to 10km
+to give another sense of scale
  
- Tips:
+Tips:
  
- If frame rate <60Hz, stop playground and run again
+If frame rate <60Hz, stop playground and run again
  
- If still <60Hz, stop playground and run again
+If still <60Hz, stop playground and run again
  
- If still <60Hz after several tries, close something
+If still <60Hz after several tries, close something
  
- This playground doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad is the world origin when "Run My Code" is pressed.
+This playground doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad 
+is the world origin when "Run My Code" is pressed.
  
- All virtual objects are positioned and oriented according to this world origin (with righteye.debugOptions on, the world origin is an XYZ or RGB axis)
+All virtual objects are positioned and oriented according to this world origin (with righteye.debugOptions on, the 
+world origin is an XYZ or RGB axis)
 
 */
 
