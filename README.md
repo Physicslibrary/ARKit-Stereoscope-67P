@@ -32,7 +32,7 @@ It is advisable to get a protective silicon case for the iPad to minimize the st
 
 Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids program their iPad directly to experiment with ARKit and Scenekit.
 
-# Installation (coming)
+# Installation
 
 In iOS Safari, click the following [link](https://github.com/Physicslibrary/ARKit-Stereoscope-67P/blob/master/dist/ARKit-Stereoscope-67P.playground.zip), press "Download", and "Open in Playgrounds".
 
