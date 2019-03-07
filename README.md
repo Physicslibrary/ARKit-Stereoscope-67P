@@ -1,6 +1,6 @@
 # ARKit-Stereoscope-67P
 
-ARKit stereoscope to visualize the relative sizes of ESA Rosetta space probe to 67P/Churyumov-Gerasimenko comet
+ARKit stereoscope visualizes the relative sizes of ESA Rosetta space probe to 67P/Churyumov-Gerasimenko comet.
 
 <img src="67P-1.jpg" width="640">
 <img src="67P-2.jpg" width="640">
