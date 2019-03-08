@@ -20,7 +20,7 @@ Since ESA and NASA have an educational policy of open sourcing their data such a
 
 2. The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
-   Beside using it to view 3D models with tracking, it can also be used, in a browser (no ARKit needed), to view stereoscopic images from [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/).
+   Beside using it to view 3D models with tracking, it can also be used, in a browser, to view stereoscopic images from [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/).
 
    For more current images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html).
    
