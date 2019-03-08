@@ -36,10 +36,8 @@ Apple Swift Playgrounds (2.2) from iOS App Store. Swift Playgrounds lets kids pr
 
 In iOS Safari, [download ARKit-Stereoscope-67P.playground.zip](https://github.com/Physicslibrary/ARKit-Stereoscope-67P/blob/master/ARKit-Stereoscope-67P.playground.zip), and "Open in Playgrounds".
 
-ARKit-Stereoscope-67P playground was created from the Blank template in iOS Swift Playgrounds.
+ARKit-Stereoscope-67P playground was created from the Blank template in Swift Playgrounds.
 
-# References
-
-# How to use Blender to scale Rosetta and 67P comet.
+# How to use Blender to scale Rosetta and 67P comet
 
 
