@@ -12,7 +12,7 @@ This project was inspired by a European Space Agency's webpage explaining the re
 
 Question: What would it be like to see the relative sizes of Rosetta and 67P in virtual reality?
  
-Since ESA and NASA have an educational policy of open sourcing their data such as 3D models and images, one can use tools such as Apple iPad Swift Playgrounds and ARKit to visualize the data with a stereoscope.
+With ESA and NASA open sourcing their data such as 3D models and images, anyone can use tools such as iPad Swift Playgrounds and ARKit to visualize the data with a stereoscope.
 
 # Hardware
 
