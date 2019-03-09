@@ -40,6 +40,29 @@ In iOS Safari, [download ARKit-Stereoscope-67P.playground.zip](https://github.co
 
 ARKit-Stereoscope-67P playground was created from the Blank template in Swift Playgrounds.
 
+# Credits
+ 
+ESA_Gaia_DR2_AllSky_Brightness_Colour_Cartesian_2000x1000.png<br>
+Date: 25 April 2018<br>
+Satellite: Gaia<br>
+Copyright: ESA/Gaia/DPAC, CC BY-SA 3.0 IGO<br>
+http://sci.esa.int/gaia/60196-gaia-s-sky-in-colour-equirectangular-projection/<br>
+ 
+67P.obj is scaled, positioned, and exported from Blender using CSHP_DV_257_01_______00343.obj<br>
+Copyright: ESA/Rosetta/NAVCAM – CC BY-SA IGO 3.0<br>
+https://imagearchives.esac.esa.int/index.php?/page/navcam_3d_models<br>
+ 
+67P.png<br>
+Cycles render baked in Blender 2.79b using 67P.obj<br>
+ 
+rosetta.obj<br>
+Author/Origin: Eyes on the Solar System. NASA/JPL-Caltech<br>
+https://nasa3d.arc.nasa.gov/detail/eoss-rosetta<br>
+ 
+Blender scaled 67P.obj to 4100m, rosetta.obj to 32m, and positioned 1km apart<br>
+ 
+https://www.blender.org/<br>
+ 
 # How to use Blender to scale Rosetta and 67P comet
 
 
