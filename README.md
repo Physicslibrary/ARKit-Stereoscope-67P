@@ -10,7 +10,7 @@ This project was inspired by a European Space Agency's webpage explaining the re
  
 [ESA: How big is Rosetta compared with the comet?](http://sci.esa.int/rosetta/54831-how-big-is-rosetta-compared-with-the-comet/)
 
-Question: What would it be like if one could see the relative sizes of Rosetta and 67P in virtual reality?
+Question: What would it be like to see the relative sizes of Rosetta and 67P in virtual reality?
  
 Since ESA and NASA have an educational policy of open sourcing their data such as 3D models and images, one can use tools such as Apple iPad Swift Playgrounds and ARKit to visualize the data with a stereoscope.
 
