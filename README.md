@@ -74,9 +74,11 @@ https://www.blender.org/<br>
 
 This section assumes users are familiar with Blender (www.blender.org, YouTube, books) and shows steps used for project.
 
-Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta) ("Download Rosetta.zip file 4MB").
+Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta) ("Download Rosetta.zip file - 4MB"). Display wireframe, press key "a" , and join all meshes.
 
+<img src="blender1.png" width="640">
 
+Export from Blender with option "Selection Only" (turn off others).
 
-
+<img src="blender2.png" width="640">
 
