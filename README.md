@@ -56,7 +56,7 @@ Rosetta.blend<br>
 Author/Origin: Eyes on the Solar System. NASA/JPL-Caltech<br>
 https://nasa3d.arc.nasa.gov/detail/eoss-rosetta<br>
 
-# How to use Blender to scale Rosetta and 67P comet
+# Using Blender to scale Rosetta and 67P comet
 
 In the [playground Resources folder](https://github.com/Physicslibrary/ARKit-Stereoscope-67P/blob/master/ARKit-Stereoscope-67P.playground/Pages/Rosetta%20vs%2067P.xcplaygroundpage/Resources/), there are 5 files:<br>
 
@@ -71,7 +71,12 @@ Blender 2.79b scales Rosetta.blend to 32m and exports as rosetta.obj.
 CSHP_DV_257_01_______00343.obj is scaled to 41km and exported as 67P.obj, and Cycles render bakes to texture 67P.png<br>
  
 https://www.blender.org/<br>
- 
+
+This section assumes users are familiar with Blender (www.blender.org, YouTube, books) and shows steps used for project.
+
+Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta)
+
+
 
 
 
