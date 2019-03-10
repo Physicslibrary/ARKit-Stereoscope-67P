@@ -72,7 +72,7 @@ CSHP_DV_257_01_______00343.obj is scaled to 41km and exported as 67P.obj, and Cy
  
 https://www.blender.org/<br>
 
-This section assumes users are familiar with Blender (www.blender.org, YouTube, books) and shows steps used for project.
+This section assumes users are familiar with Blender (www.blender.org, YouTube, books) and shows some steps used in project.
 
 Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta) ("Download Rosetta.zip file - 4MB"). Display wireframe, press key "a" , and join all meshes.
 
@@ -86,6 +86,13 @@ Restart Blender, import Rosetta.obj and CSHP_DV_257_01_______00343.obj<br>
 
 <img src="blender3.png" width="640">
 
-Select Rosetta. X-dimension is a correct 32m but 67P is similar in size.
+Select Rosetta. X in "Dimensions" is a correct 32m but 67P is similar in size.
 
 <img src="blender4.png" width="640">
+
+On the right, "Units" to Kilometers and "Length: Metric".<br>
+Select 67P object, change X in "Dimensions" to 41km. "Scale: X:" adjusts itself to 8101.854. Change Y and Z to 8101.854.<br>
+Change "View Clip:" to 100km to see the whole comet.<br>
+
+<img src="blender5.png" width="640">
+
