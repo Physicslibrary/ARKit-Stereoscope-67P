@@ -74,7 +74,7 @@ https://www.blender.org/<br>
 
 This section assumes users are familiar with Blender (www.blender.org, YouTube, books) and shows steps used for project.
 
-Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta)
+Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta) ("Download Rosetta.zip file 4MB").
 
 
 
