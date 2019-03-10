@@ -86,4 +86,6 @@ Restart Blender, import Rosetta.obj and CSHP_DV_257_01_______00343.obj<br>
 
 <img src="blender3.png" width="640">
 
+Select Rosetta. X-dimension is a correct 32m but 67P is similar in size.
 
+<img src="blender4.png" width="640">
