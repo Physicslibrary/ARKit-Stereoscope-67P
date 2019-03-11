@@ -48,11 +48,11 @@ Satellite: Gaia<br>
 Copyright: ESA/Gaia/DPAC, CC BY-SA 3.0 IGO<br>
 http://sci.esa.int/gaia/60196-gaia-s-sky-in-colour-equirectangular-projection/<br>
  
-CSHP_DV_257_01_______00343.obj<br>
+CSHP_DV_257_01_______00343.obj (OBJ File 3.8MB)<br>
 Copyright: ESA/Rosetta/NAVCAM – CC BY-SA IGO 3.0<br>
 https://imagearchives.esac.esa.int/index.php?/page/navcam_3d_models<br>
 
-Rosetta.blend<br>
+Rosetta.blend (Rosetta.zip 4MB)<br>
 Author/Origin: Eyes on the Solar System. NASA/JPL-Caltech<br>
 https://nasa3d.arc.nasa.gov/detail/eoss-rosetta<br>
 
@@ -68,13 +68,13 @@ rosetta.obj<br>
 
 Blender 2.79b scales Rosetta.blend to 32m and exports as rosetta.obj.
 
-CSHP_DV_257_01_______00343.obj is scaled to 41km and exported as 67P.obj, and Cycles render bakes to texture 67P.png<br>
+CSHP_DV_257_01_______00343.obj is scaled to 41km and exported as 67P.obj, and Cycles render baked to texture 67P.png<br>
  
 https://www.blender.org/<br>
 
 This section assumes users are familiar with Blender (www.blender.org, YouTube, books) and shows some steps used in project.
 
-Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta) ("Download Rosetta.zip file - 4MB"). Display wireframe, press key "a" , and join all meshes.
+Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta). Display wireframe, press key "a" , and join all meshes.
 
 <img src="blender1.png" width="640">
 
@@ -82,7 +82,7 @@ Export from Blender with option "Selection Only" (turn off others).
 
 <img src="blender2.png" width="640">
 
-Restart Blender, import Rosetta.obj and CSHP_DV_257_01_______00343.obj<br>
+Restart Blender, import Rosetta.obj and CSHP_DV_257_01_______00343.obj.<br>
 
 <img src="blender3.png" width="640">
 
