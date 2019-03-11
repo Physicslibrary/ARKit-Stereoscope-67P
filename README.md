@@ -96,11 +96,11 @@ Change "View Clip:" to 10km to see the whole comet.<br>
 
 <img src="blender5.png" width="800">
 
-Rosetta is inside the comet. With the comet still selected, increase its Y location with positive value.<br>
+Rosetta is inside the comet. With the comet selected, change Y location with increasing positive value.<br>
 
 <img src="blender6.png" width="800">
 
-Rosetta reaches the surface when the comet is shifted 426m.
+Rosetta reaches the surface when the comet is shifted ~426m.
 
 <img src="blender7.png" width="800">
 
