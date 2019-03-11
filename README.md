@@ -91,8 +91,21 @@ Select Rosetta. X in "Dimensions" is a correct 32m but 67P is similar in size.
 <img src="blender4.png" width="800">
 
 On the right, "Units" to Kilometers and "Length: Metric".<br>
-Select 67P object, change X in "Dimensions" to 41km. "Scale: X:" adjusts itself to 810.185. Change Y and Z to 810.185.<br>
-Change "View Clip:" to 100km to see the whole comet.<br>
+Select 67P object, change X in "Dimensions" to 4.1km. "Scale: X:" adjusts itself to 810.185. Change Y and Z to 810.185.<br>
+Change "View Clip:" to 10km to see the whole comet.<br>
 
 <img src="blender5.png" width="800">
 
+Rosetta is inside the comet. With the comet still selected, increase its Y location with positive value.<br>
+
+<img src="blender6.png" width="800">
+
+Rosetta reaches the surface when the comet is shifted 426m.
+
+<img src="blender7.png" width="800">
+
+Change view to "Top" and "Ortho". Select Rosetta and move its Y location -1km.
+
+<img src="blender8.png" width="800">
+
+<img src="blender9.png" width="800">
