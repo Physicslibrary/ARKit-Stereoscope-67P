@@ -94,5 +94,5 @@ On the right, "Units" to Kilometers and "Length: Metric".<br>
 Select 67P object, change X in "Dimensions" to 41km. "Scale: X:" adjusts itself to 810.185. Change Y and Z to 810.185.<br>
 Change "View Clip:" to 100km to see the whole comet.<br>
 
-<img src="blender5.png" width="800">
+
 
