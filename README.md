@@ -54,7 +54,7 @@ Rosetta.blend (Rosetta.zip 4MB)<br>
 Author/Origin: Eyes on the Solar System. NASA/JPL-Caltech<br>
 https://nasa3d.arc.nasa.gov/detail/eoss-rosetta<br>
 
-# Using Blender to scale Rosetta and 67P comet
+# Using Blender to scale Rosetta and 67P comet (under construction)
 
 In the [playground Resources folder](https://github.com/Physicslibrary/ARKit-Stereoscope-67P/blob/master/ARKit-Stereoscope-67P.playground/Pages/Rosetta%20vs%2067P.xcplaygroundpage/Resources/), there are 5 files:<br>
 
