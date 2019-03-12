@@ -74,17 +74,17 @@ https://www.blender.org/<br>
 
 This section assumes users are familiar with Blender (www.blender.org, YouTube, books) and shows some steps used in project.
 
-Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta). Display wireframe, press key "a" , and join all meshes.
+Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta). Display wireframe, press keyboard "a" , join all meshes.
 
 <img src="blender1.png" width="800">
 
-Export from Blender with options "Selection Only", "Apply Modifiers", and "Scale: 1.00".
+"Export OBJ" with options "Selection Only", "Apply Modifiers", and "Scale: 1.00".
 
 Restart Blender, import Rosetta.obj and CSHP_DV_257_01_______00343.obj.<br>
 
 Set Blender to "Cycles Render", and "Units" to Kilometers, "Lengths:" to Metric, and "Unit Scale" to 1000. This will export files that is read properly by Swift Playgrounds. The comet will be 4.1m in Scenekit and Rosetta 3.2cm.<br>
 
-Rosetta is incorrect with x dimension 32km. The comet is incorrect with x dimension 5km. For Rosetta, change x = 32m. When x = 32m, "Scale: X" adjusts itself to 0.001. Change scale Y and Z to 0.001. For comet, change dimension x = 4.1km and Y and Z scales to 0.810. Change "View Clip: Start:" to 1m and "View Chip: End:" to 10km to stop clipping.<br>
+Rosetta is incorrect with x dimension 32km. The comet is incorrect with x dimension 5km. For Rosetta, change x = 32m. When x = 32m, "Scale: X" adjusts itself to 0.001. Change scale Y and Z to 0.001. For comet, change dimension x = 4.1km and Y and Z scales to 0.810. Change "View Clip: Start:" to 1m and "View Chip: End:" to 10km to stop clipping. Zoom in until see Rosetta inside comet.<br>
 
 Select comet, grab the green arrow (left mouse button) and slide it to the right. This will increase the Y position of the comet in the + direction.<br>
 
@@ -95,6 +95,27 @@ Change the comet's origin to the 3D cursor.<br>
 Change view to "Top" and "Ortho". Zoom out. Select Rosetta and move its Y location to -1km.<br>
 
 Check dimensions, use "Grease Pencil", "Ruler/Protractor".<br>
+
+Next, create a texture map for the comet.<br>
+
+Select comet. Split another 3D View. One 3D view in "wireframe" and the other in "Rendered". In the wireframe view, "Add","Lamp", and "Sun". Adjust the rotation (keyboard r) of the sun lamp in the top, front, and right views to change the lighting of the comet in 3D Rendered View (position of sun lamp does not change lighting).<br>
+
+Change one of the views to "UV/Image Editor", create a new image named 67P.png, "OK".<br>
+
+With comet selected, go to Edit Mode, "Mesh", "UV Unwrap", "Smart UV Project", "OK".<br>
+
+Change the view to "Node Editor", "Add a new material", "Add" "Texture" "Image Texture", in "Image Texture" "Brow Image to be linked" to 67P.<br>
+
+Return the view to "UV/Image Editor", on the right, "Scene" "Bake" and press "Bake", save image as 67P.png after baking.<br>
+
+With comet selected, "Export OBJ" with options "Selection Only", "Apply Modifiers", "Include Edges", "Write Normals", "Include UVs, "Scale: 1.00".<br>
+
+With rosetta selected, "Export OBJ" with options "Selection Only", "Apply Modifiers", "Scale: 1.00".<br>
+
+
+
+
+
 
 
 
