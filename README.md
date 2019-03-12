@@ -80,12 +80,13 @@ Export from Blender with options "Selection Only" and "Apply Modifiers".
 
 Restart Blender, import Rosetta.obj and CSHP_DV_257_01_______00343.obj.<br>
 
+(redo)<br>
 The sizes for Rosetta and the comet is incorrect For Rosetta, change "Dimensions: X" to 32m. is not but 67P is similar in size.<br>
-On the right, "Units" to Kilometers and "Length: Metric", "Unit Scale" = 1.0.<br>
-Select 67P object, change X in "Dimensions" to 4.1km. "Scale: X:" adjusts itself to 810.185. Change scale Y and Z to 810.185.<br>
+On the right, "Units" to Kilometers and "Length: Metric", "Unit Scale" = 1000.0.<br>
+Select 67P object, change "Dimensions: X" to 4.1km. "Scale: X:" adjusts itself to. Change scale Y and Z to.<br>
 Change "View Clip:" to 10km to see the whole comet.<br>
 Rosetta is inside the comet. With the comet selected, change Y location with increasing positive value.<br>
-Rosetta reaches the surface when the comet is shifted ~426m.
+Rosetta reaches the surface when the comet is shifted.
 Change view to "Top" and "Ortho". Zoom out. Select Rosetta and move its Y location to -1km.
 
 
