@@ -2,9 +2,9 @@
 
 ARKit stereoscope visualizes the relative sizes of ESA Rosetta space probe to 67P/Churyumov-Gerasimenko comet.
 
-<img src="67P-1.jpg" width="640">
-<img src="67P-2.jpg" width="640">
-<img src="67P-3.jpg" width="640">
+<img src="images/67P-1.jpg" width="640">
+<img src="images/67P-2.jpg" width="640">
+<img src="images/67P-3.jpg" width="640">
 
 This project was inspired by a European Space Agency's webpage explaining the relative sizes of the Rosetta space probe to comet 67P/Churyumov-Gerasimenko:
  
@@ -22,7 +22,7 @@ With ESA and NASA open sourcing their data such as 3D models and images, anyone 
 
    For more current images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html).
    
-   <img src="owl-viewer.jpg" width="640">
+   <img src="images/owl-viewer.jpg" width="640">
 
 It is advisable to get a protective silicon case for the iPad to minimize the stereoscope sliding on the screen. The stereoscopic viewer is held in place by the user to allow switching between viewing and programming Swift. "Portrait Orientation Lock" is on as this should be the most comfortable position to hold the iPad with the viewer and moving around virtual objects.
 
@@ -56,7 +56,7 @@ Author/Origin: Eyes on the Solar System. NASA/JPL-Caltech<br>
 https://nasa3d.arc.nasa.gov/detail/eoss-rosetta<br>
 https://www.nasa.gov/multimedia/guidelines/index.html<br>
 
-# Using Blender to scale Rosetta and 67P comet (under construction)
+# Using Blender to scale Rosetta and Comet 67P
 
 In the [playground Resources folder](https://github.com/Physicslibrary/ARKit-Stereoscope-67P/blob/master/ARKit-Stereoscope-67P.playground/Pages/Rosetta%20vs%2067P.xcplaygroundpage/Resources/), there are 5 files:<br>
 
@@ -72,13 +72,17 @@ CSHP_DV_257_01_______00343.obj was scaled to 4.1km, exported as 67P.obj, and Cyc
  
 https://www.blender.org/<br>
 
-This section assumes users are familiar with Blender (www.blender.org, YouTube, books) and shows some steps used in project.
+This section assumes users are familiar with Blender (www.blender.org, youtube, books) and shows some steps used in project.
 
 Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/eoss-rosetta). Display wireframe, press keyboard "a" , join all meshes.
 
-<img src="blender1.png" width="800">
+<img src="images/blender1.png" width="640">
+
+<img src="images/blender2.png" width="640">
 
 "Export OBJ" with options "Selection Only", "Apply Modifiers", and "Scale: 1.00".
+
+<img src="images/blender3.png" width="160">
 
 Restart Blender, import Rosetta.obj and CSHP_DV_257_01_______00343.obj.<br>
 
@@ -88,31 +92,55 @@ Rosetta is incorrect with x dimension 32km. The comet is incorrect with x dimens
 
 Select comet, grab the green arrow (left mouse button) and slide it to the right. This will increase the Y position of the comet in the + direction.<br>
 
+<img src="images/blender4.png" width="800">
+
+<img src="images/blender5.png" width="800">
+
 Rosetta will reach the surface when the comet Y = 426m.<br>
+
+<img src="images/blender6.png" width="800">
 
 Change the comet's origin to the 3D cursor.<br>
 
+<img src="images/blender7.png" width="800">
+
 Change view to "Top" and "Ortho". Zoom out. Select Rosetta and move its Y location to -1km.<br>
 
-Check dimensions, use "Grease Pencil", "Ruler/Protractor".<br>
+Use "Grease Pencil" and "Ruler/Protractor" to check dimensions.<br>
+
+<img src="images/blender8.png" width="800">
 
 Next, create a texture map for the comet.<br>
 
 Select comet. Split another 3D View. One 3D view in "wireframe" and the other in "Rendered". In the wireframe view, "Add","Lamp", and "Sun". Adjust the rotation (keyboard r) of the sun lamp in the top, front, and right views to change the lighting of the comet in 3D Rendered View (position of sun lamp does not change lighting).<br>
 
+<img src="images/blender9.png" width="800">
+
 Change one of the views to "UV/Image Editor", create a new image named 67P.png, "OK".<br>
+
+<img src="images/blender10.png" width="800">
 
 With comet selected, go to Edit Mode, "Mesh", "UV Unwrap", "Smart UV Project", "OK".<br>
 
+<img src="images/blender11.png" width="800">
+
+<img src="images/blender12.png" width="340">
+
 Change the view to "Node Editor", "Add a new material", "Add" "Texture" "Image Texture", in "Image Texture" "Brow Image to be linked" to 67P.<br>
+
+<img src="images/blender13.png" width="800">
 
 Return the view to "UV/Image Editor", on the right, "Scene" "Bake" and press "Bake", save image as 67P.png after baking.<br>
 
+<img src="images/blender14.png" width="800">
+
 With comet selected, "Export OBJ" with options "Selection Only", "Apply Modifiers", "Include Edges", "Write Normals", "Include UVs, "Scale: 1.00".<br>
+
+<img src="images/blender15.png" width="160">
 
 With rosetta selected, "Export OBJ" with options "Selection Only", "Apply Modifiers", "Scale: 1.00".<br>
 
-
+Copyright (c) 2019 Hartwell Fong
 
 
 
