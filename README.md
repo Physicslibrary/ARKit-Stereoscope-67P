@@ -66,7 +66,7 @@ rosetta.obj<br>
 
 Blender 2.79b scales Rosetta.blend to 32m and exports as rosetta.obj.
 
-CSHP_DV_257_01_______00343.obj is scaled to 41km and exported as 67P.obj, and Cycles render baked to texture 67P.png<br>
+CSHP_DV_257_01_______00343.obj is scaled to 4.1km and exported as 67P.obj, and Cycles render baked to texture 67P.png<br>
  
 https://www.blender.org/<br>
 
@@ -76,34 +76,16 @@ Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/e
 
 <img src="blender1.png" width="800">
 
-Export from Blender with option "Selection Only" (turn off others).
-
-<img src="blender2.png" width="800">
+Export from Blender with options "Selection Only" and "Apply Modifiers".
 
 Restart Blender, import Rosetta.obj and CSHP_DV_257_01_______00343.obj.<br>
 
-<img src="blender3.png" width="800">
-
-Select Rosetta. X in "Dimensions" is a correct 32m but 67P is similar in size.
-
-<img src="blender4.png" width="800">
-
+The sizes for Rosetta and the comet is incorrect For Rosetta, change "Dimensions: X" to 32m. is not but 67P is similar in size.<br>
 On the right, "Units" to Kilometers and "Length: Metric", "Unit Scale" = 1.0.<br>
 Select 67P object, change X in "Dimensions" to 4.1km. "Scale: X:" adjusts itself to 810.185. Change scale Y and Z to 810.185.<br>
 Change "View Clip:" to 10km to see the whole comet.<br>
-
-<img src="blender5.png" width="800">
-
 Rosetta is inside the comet. With the comet selected, change Y location with increasing positive value.<br>
-
-<img src="blender6.png" width="800">
-
 Rosetta reaches the surface when the comet is shifted ~426m.
-
-<img src="blender7.png" width="800">
-
 Change view to "Top" and "Ortho". Zoom out. Select Rosetta and move its Y location to -1km.
 
-<img src="blender8.png" width="800">
 
-<img src="blender9.png" width="800">
