@@ -138,9 +138,7 @@ With comet selected, "Export OBJ" with options "Selection Only", "Apply Modifier
 
 <img src="images/blender15.png" width="160">
 
-With rosetta selected, "Export OBJ" with options "Selection Only", "Apply Modifiers", "Scale: 1.00".<br>
-
-
+With rosetta selected, "Export OBJ" with options "Selection Only", "Apply Modifiers", "Scale: 1.00".<br><br>
 
 Copyright (c) 2019 Hartwell Fong
 
