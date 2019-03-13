@@ -1,8 +1,8 @@
 /*
  
- ARKit-Stereoscope-Comet-67P
+ ARKit-Stereoscope-67P
  
- https://physicslibrary.github.io/ARKit-Stereoscope-Comet-67P/
+ https://physicslibrary.github.io/ARKit-Stereoscope-67P/
  
  MIT License
 
@@ -34,10 +34,10 @@ the relative sizes of the Rosetta space probe to comet 67P/Churyumov-Gerasimenko
  
 sci.esa.int/rosetta/54831-how-big-is-rosetta-compared-with-the-comet/
  
-Question: What would it be like if one could see the relative sizes of Rosetta and 67P in virtual reality?
+Question: What would it be like to see the relative sizes of Rosetta and 67P in virtual reality?
  
-Since ESA and NASA have an educational policy of open sourcing their data such as 3D models and images, 
-one can use tools such Swift Playgrounds and ARKit to visualize the data with a stereoscope.
+With ESA and NASA open sourcing their data such as 3D models and images, 
+anyone can use tools such Swift Playgrounds and ARKit to visualize the data with a stereoscope.
  
 The Rosetta model is positioned 1 km from the 67P comet using Blender. There are cubes placed at every 1 km 
 from 1 to 10 km from 67P. This helps to give a sense of distance and a kilometer is a familiar thing. Placing 
@@ -54,23 +54,26 @@ Date: 25 April 2018
 Satellite: Gaia
 Copyright: ESA/Gaia/DPAC, CC BY-SA 3.0 IGO
 http://sci.esa.int/gaia/60196-gaia-s-sky-in-colour-equirectangular-projection/
- 
-67P.obj is scaled, positioned, and exported from Blender using CSHP_DV_257_01_______00343.obj
-Copyright: ESA/Rosetta/NAVCAM  CC BY-SA IGO 3.0
+
+CSHP_DV_25701____00343.obj (OBJ File 3.8MB)
+Copyright: ESA/Rosetta/NAVCAM – CC BY-SA IGO 3.0
 https://imagearchives.esac.esa.int/index.php?/page/navcam_3d_models
- 
-67P.png
-Cycles render baked in Blender 2.79b using 67P.obj
- 
-rosetta.obj
+https://imagearchives.esac.esa.int/index.php?/page/copyright_information
+
+Rosetta.blend (Rosetta.zip 4MB)
 Author/Origin: Eyes on the Solar System. NASA/JPL-Caltech
 https://nasa3d.arc.nasa.gov/detail/eoss-rosetta
- 
+https://www.nasa.gov/multimedia/guidelines/index.html
+
 Blender is used to scale 67P.obj to 4100m, rosetta.obj to 32m, and positioned 1km apart
  
 https://www.blender.org/
+
+67P.obj is scaled, positioned, and exported from Blender using CSHP_DV_257_01_______00343.obj
  
-The OWL Stereoscope Viewer from The London Stereoscopic Ltd
+67P.png is Cycles render baked in Blender 2.79b using 67P.obj
+  
+This playground uses the OWL Stereoscope Viewer from The London Stereoscopic Ltd
  
 https://www.londonstereo.com
  
@@ -89,11 +92,7 @@ to give another sense of scale
  
 Tips:
  
-If frame rate <60Hz, stop playground and run again
- 
-If still <60Hz, stop playground and run again
- 
-If still <60Hz after several tries, close something
+If frame rate <60Hz, press iPad HOME button, return to Swift Playgrounds
  
 This playground doesn't look for a flat plane to put virtual objects on, instead the initial position of the iPad 
 is the world origin when "Run My Code" is pressed.
@@ -193,6 +192,7 @@ imageView.addSubview(lefteye)
 righteye.frame = CGRect(x: 344, y: 0, width: 344, height: 380)
 imageView.addSubview(righteye)
 
+PlaygroundPage.current.wantsFullScreenLiveView = true
 PlaygroundPage.current.liveView = imageView
 
 // in last line, change imageView to righteye for mono view
