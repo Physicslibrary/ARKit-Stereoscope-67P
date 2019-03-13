@@ -126,7 +126,7 @@ With comet selected, go to Edit Mode, "Mesh", "UV Unwrap", "Smart UV Project", "
 
 <img src="images/blender12.png" width="340">
 
-Change the view to "Node Editor", "Add a new material", "Add" "Texture" "Image Texture", in "Image Texture" "Brow Image to be linked" to 67P.<br>
+Change the view to "Node Editor", "Add a new material", "Add" "Texture" "Image Texture", in "Image Texture" "Browse Image to be linked" to 67P.<br>
 
 <img src="images/blender13.png" width="800">
 
