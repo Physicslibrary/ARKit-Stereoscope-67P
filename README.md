@@ -140,6 +140,8 @@ With comet selected, "Export OBJ" with options "Selection Only", "Apply Modifier
 
 With rosetta selected, "Export OBJ" with options "Selection Only", "Apply Modifiers", "Scale: 1.00".<br>
 
+
+
 Copyright (c) 2019 Hartwell Fong
 
 
