@@ -20,7 +20,7 @@ With ESA and NASA open sourcing their data such as 3D models and images, anyone 
 
    Beside using it to view 3D models with tracking, it can also be used in a browser to view stereoscopic images from [Library of Congress](http://www.loc.gov/pictures/collection/stereo/) or [New York Public Library](https://stereo.nypl.org/).
 
-   For more current images, try [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html).
+   For more current images, [London Stereoscopic Company Ltd](https://www.londonstereo.com/3-D-gallery1.html).
    
    <img src="images/owl-viewer.jpg" width="640">
 
