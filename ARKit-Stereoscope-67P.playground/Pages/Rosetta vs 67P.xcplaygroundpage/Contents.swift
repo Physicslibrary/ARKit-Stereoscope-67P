@@ -114,7 +114,6 @@ righteye.autoenablesDefaultLighting = false
 righteye.showsStatistics = true  // comment out to turn off
 
 var lefteye = SCNView()
-var left = SCNScene()
 lefteye.scene = right
 lefteye.showsStatistics = true  // comment out to turn off
 
