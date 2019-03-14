@@ -127,7 +127,7 @@ righteye.debugOptions = [
 var box = SCNScene(named: "rosetta.obj")!
 let node = box.rootNode.childNodes[0]
 node.position = SCNVector3(x: 0, y: 0, z: 0)
-node.eulerAngles = SCNVector3(0, 1.57, 0)
+node.eulerAngles = SCNVector3(0, Float.pi/2, 0)
 node.scale = SCNVector3(1, 1, 1)
 righteye.scene.rootNode.addChildNode(node)
 
@@ -138,7 +138,7 @@ node.geometry?.firstMaterial?.isDoubleSided = false
 var box2 = SCNScene(named: "67P.obj")!
 let node2 = box2.rootNode.childNodes[0]
 node2.position = SCNVector3(x: 0, y: 0, z: 0)
-node2.eulerAngles = SCNVector3(0, 1.57, 0)
+node2.eulerAngles = SCNVector3(0, Float.pi/2, 0)
 node2.scale = SCNVector3(1, 1, 1)
 righteye.scene.rootNode.addChildNode(node2)
 
