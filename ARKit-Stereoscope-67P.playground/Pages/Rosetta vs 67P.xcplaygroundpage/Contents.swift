@@ -106,15 +106,14 @@ import ARKit
 import PlaygroundSupport
 
 var righteye = ARSCNView()
-var right = SCNScene()
-righteye.scene = right
+righteye.scene = SCNScene()
 righteye.scene.background.contents = UIImage(named:"ESA_Gaia_DR2_AllSky_Brightness_Colour_Cartesian_2000x1000.png")  // comment out too for camera view
 righteye.automaticallyUpdatesLighting = false
 righteye.autoenablesDefaultLighting = false
 righteye.showsStatistics = true  // comment out to turn off
 
 var lefteye = SCNView()
-lefteye.scene = right
+lefteye.scene = righteye.scene
 lefteye.showsStatistics = true  // comment out to turn off
 
 let config = ARWorldTrackingConfiguration()
@@ -157,7 +156,7 @@ node2.geometry?.firstMaterial?.isDoubleSided = true
 var box3 = SCNScene(named: "cube.obj")!
 let node3 = box3.rootNode.childNodes[0]
 node3.position = SCNVector3(x: 0, y: 0, z: 0)
-node3.eulerAngles = SCNVector3(0, 1.57, 0)
+node3.eulerAngles = SCNVector3(0, Float.pi/2, 0)
 node3.scale = SCNVector3(1, 1, 1)
 righteye.scene.rootNode.addChildNode(node3)
 
