@@ -10,11 +10,13 @@ This project was inspired by a European Space Agency's webpage explaining the re
  
 [ESA: How big is Rosetta compared with the comet?](http://sci.esa.int/rosetta/54831-how-big-is-rosetta-compared-with-the-comet/)
  
-With ESA and NASA open sourcing their data such as 3D models and images, anyone can use tools such as iPad Swift Playgrounds and ARKit to visualize the data with a stereoscope.
+With ESA and NASA open sourcing their data such as 3D models and images, anyone can use tools such as iPad Swift Playgrounds and ARKit to visualize the comet with a stereoscope.
 
 # Hardware
 
-1. Apple 9.7" iPad (tested on 2018 model, A9 CPU or higher for ARKit, should work on 2017 9.7" iPad).
+1. Apple 2018 9.7" iPad (A9 CPU or higher for ARKit, should work on 2017 9.7" iPad).<br>
+
+Update: ARKit-Stereoscope-67P playground works on 2019 iPad mini and 2019 iPad Pro (some changes to Contents.swift are needed for the different screen sizes and different refresh rate of iPad Pro). May have to experiment with fitting the OWL Stereoscopic Viewer on different sized iPad.
 
 2. The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
@@ -76,7 +78,7 @@ rosetta.obj<br>
 
 Blender 2.79b was used to scale Rosetta.blend to 32m and exported as rosetta.obj.
 
-CSHP_DV_257_01_______00343.obj was scaled to 4.1km, exported as 67P.obj, and Cycles render baked to texture 67P.png.<br>
+CSHP_DV_257_01_______00343.obj was Cycles render baked to generate texture 67P.png and exported as 67P.obj.<br>
  
 https://www.blender.org/<br>
 
@@ -94,9 +96,12 @@ Open Rosetta.blend from [NASA 3D Resources](https://nasa3d.arc.nasa.gov/detail/e
 
 Restart Blender, import Rosetta.obj and CSHP_DV_257_01_______00343.obj.<br>
 
-Set Blender to "Cycles Render", and "Units" to Kilometers, "Lengths:" to Metric, and "Unit Scale" to 1000. This will export files that is read properly by Swift Playgrounds. The comet will be 4.1m in Scenekit and Rosetta 3.2cm.<br>
+Set Blender to "Cycles Render", and "Units" to Kilometers, "Lengths:" to Metric, and "Unit Scale" to 1000. This will export files that is read properly by Swift Playgrounds.<br>
 
-Rosetta is incorrect with x dimension 32km. The comet is incorrect with x dimension 5km. For Rosetta, change x = 32m. When x = 32m, "Scale: X" adjusts itself to 0.001. Change scale Y and Z to 0.001. For comet, change dimension x = 4.1km and Y and Z scales to 0.810. Change "View Clip: Start:" to 1m and "View Chip: End:" to 10km to stop clipping. Zoom in until see Rosetta inside comet.<br>
+In Blender, Rosetta is incorrect with x dimension 32km. For Rosetta, change x = 32m. When x = 32m, "Scale: X" adjusts itself to 0.001. Change scale Y and Z to 0.001. For the comet, the dimensions of imported file CSHP_DV_257_01_______00343.obj are correct. Using 
+http://sci.esa.int/rosetta/54829-rosetta-and-comet-67p-to-scale-annotated/ as a reference as to where to measure 4.1km.
+
+Change "View Clip: Start:" to 1m and "View Chip: End:" to 10km to stop clipping. Zoom in until see Rosetta inside comet.<br>
 
 Select comet, grab the green arrow (left mouse button) and slide it to the right. This will increase the Y position of the comet in the + direction.<br>
 
