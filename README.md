@@ -16,7 +16,7 @@ With ESA and NASA open sourcing their data such as 3D models and images, anyone 
 
 1. Apple 2018 9.7" iPad (A9 CPU or higher for ARKit, should work on 2017 9.7" iPad).<br>
 
-Update: ARKit-Stereoscope-67P playground works on 2019 iPad mini and 2019 iPad Pro (some changes to Contents.swift are needed for the different screen sizes and different refresh rate of iPad Pro). May have to experiment with fitting the OWL Stereoscopic Viewer on different sized iPad.
+   Update: ARKit-Stereoscope-67P playground works on 2019 iPad mini and 2019 iPad Pro (some changes to Contents.swift are needed for the different screen sizes and different refresh rate of iPad Pro). May have to experiment with fitting the OWL Stereoscopic Viewer on different sized iPad.
 
 2. The OWL Stereoscopic Viewer(£15.00) from [The London Stereoscopic Company Ltd](https://www.londonstereo.com/)
 
